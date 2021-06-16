@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e5e97"],{9703:function(e,n,t){"use strict";t.r(n);var c=t("7a23"),r={class:"text-center"},u=Object(c["f"])("h1",null,"404",-1),s=Object(c["f"])("p",null,"這頁找不到",-1);function d(e,n){return Object(c["r"])(),Object(c["d"])("div",r,[u,s])}const o={};o.render=d;n["default"]=o}}]);
+//# sourceMappingURL=chunk-2d0e5e97.849128a6.js.map
