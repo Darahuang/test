@@ -1,9 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <Form v-slot="{ errors, values, validate }" @submit="onSubmit">
-      {{ errors }} {{ values }}
+    <Form v-slot="{ errors, validate }" @submit="onSubmit">
 
       <div class="mb-3">
         <label for="email" class="form-label">Email</label>
@@ -28,7 +26,6 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
 
 export default {
   name: 'Home',
@@ -39,11 +36,14 @@ export default {
       },
     };
   },
+  methods: {
+    onSubmit() {
+      console.log('Hello');
+    },
+  },
   created() {
     console.log(this.user);
   },
-  components: {
-    HelloWorld,
-  },
+
 };
 </script>
